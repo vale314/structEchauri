@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1536001957 source:c:\users\lenovo\documents\proyects\estruct\museo\main.cpp
+	<iostream>
+	"Pintura.h"
+	"Museo.h"
+
+1536092198 c:\users\lenovo\documents\proyects\estruct\museo\include\pintura.h
+	"ObraArte.h"
+
+1536094033 c:\users\lenovo\documents\proyects\estruct\museo\include\obraarte.h
+	<string>
+
+1536097429 source:c:\users\lenovo\documents\proyects\estruct\museo\src\escultura.cpp
+	"Escultura.h"
+
+1536097608 c:\users\lenovo\documents\proyects\estruct\museo\include\escultura.h
+	"ObraArte.h"
+
+1536096352 source:c:\users\lenovo\documents\proyects\estruct\museo\src\obraarte.cpp
+	"ObraArte.h"
+	<iostream>
+
+1536094374 source:c:\users\lenovo\documents\proyects\estruct\museo\src\pintura.cpp
+	"Pintura.h"
+
+1536096049 source:c:\users\lenovo\documents\proyects\estruct\museo\src\museo.cpp
+	"Museo.h"
+	<iostream>
+	<stdexcept>
+
+1536097915 c:\users\lenovo\documents\proyects\estruct\museo\include\museo.h
+	"Pintura.h"
+	"Escultura.h"
+	<iostream>
+

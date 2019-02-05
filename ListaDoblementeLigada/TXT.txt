@@ -1,0 +1,19 @@
+listSize: size_t
+listFront: NodoLDL*
+listBack: NodoLDL*
+-----------------------------
+
++<<T>> LDL() //Tarea- hacer copia de la lista
++<<T>> ~LDL() //Tarea 
++<<T>> empty(): bool
++<<T>> size(): size_t
++<<T>> push_front(element:const T&):void
++<<T>> push_back(element: const T&):void
++<<T>> front(): const T&
++<<T>> back(): const T&
++<<T>> pop_front(): void
++<<T>> pop_back(): void
++<<T>> insert(position: size_t,element: const T):void //Tarea
++<<T>> erease(position: size_t):void	//Tarea
++<<T>> clear():void	//Tarea
++<<T>> remove(value:const T&):void //Tarea

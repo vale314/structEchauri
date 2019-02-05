@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1536004231 source:c:\users\lenovo\documents\proyects\estruct\ejemplo-polimorfismo\main.cpp
+	<iostream>
+	"Enemigo.h"
+	"Zombie.h"
+	"Vampiro.h"
+
+1536003788 source:c:\users\lenovo\documents\proyects\estruct\ejemplo-polimorfismo\src\enemigo.cpp
+	"Enemigo.h"
+
+1536003457 c:\users\lenovo\documents\proyects\estruct\ejemplo-polimorfismo\include\enemigo.h
+	<iostream>
+
+1536003350 c:\users\lenovo\documents\proyects\estruct\ejemplo-polimorfismo\include\zombie.h
+	"Enemigo.h"
+	<iostream>
+
+1536003798 source:c:\users\lenovo\documents\proyects\estruct\ejemplo-polimorfismo\src\zombie.cpp
+	"Zombie.h"
+
+1536004241 source:c:\users\lenovo\documents\proyects\estruct\ejemplo-polimorfismo\src\vampiro.cpp
+	"Vampiro.h"
+
+1536004026 c:\users\lenovo\documents\proyects\estruct\ejemplo-polimorfismo\include\vampiro.h
+	"Enemigo.h"
+	<iostream>
+

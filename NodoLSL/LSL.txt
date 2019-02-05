@@ -1,0 +1,26 @@
+listSize: size_t
+listFront: NodoLSL*
+listBack: NodoLSL*
+
++<<T>> LSL()
++<<T>> ~LSL()
++<<T>> empty(): bool
++<<T>> size(): size_t
++<<T>> push_front(element:const T&): void
++<<T>> push_back(element:const T&): void
++<<T>> front(): const T&
++<<T>> back(): const T&
++<<T>> pop_front():void
++<<T>> pop_back():void
++<<T>> insert(position: size_t, element:const T&): vooid
++<<T>> erase(position: size_t) void:
++<<T>> clear(): void
++<<T>> remove(value: const T&): void
+
+
+
+
+NodoLSL
+
+dato:t
+siguien:NodoLSL*

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1537386953 source:c:\users\lenovo\documents\proyects\estruct\pilas\main.cpp
+	<iostream>
+	"PILA_ESTATICA.h"
+
+1537386786 c:\users\lenovo\documents\proyects\estruct\pilas\include\pila_estatica.h
+	<iostream>
+	<stdexcept>
+

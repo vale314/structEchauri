@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1537214493 source:c:\users\lenovo\documents\proyects\estruct\fecha\main.cpp
+	<iostream>
+	"./include/Fecha.h"
+
+1537214565 c:\users\lenovo\documents\proyects\estruct\fecha\include\fecha.h
+	<iostream>
+

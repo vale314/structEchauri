@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1536782991 source:c:\users\lenovo\documents\proyects\estruct\persona\main.cpp
+	<iostream>
+	"./include/Estudiante.h"
+	"./include/Empleado.h"
+	"./include/Persona.h"
+
+1536782750 c:\users\lenovo\documents\proyects\estruct\persona\include\estudiante.h
+	<iostream>
+	"./Persona.h"
+
+1536781501 c:\users\lenovo\documents\proyects\estruct\persona\include\persona.h
+	<iostream>
+	<string>
+
+1535572580 c:\users\lenovo\documents\proyects\estruct\persona\include\empleado.h
+	<iostream>
+	"Persona.h"
+
+1535573836 source:c:\users\lenovo\documents\proyects\estruct\persona\src\empleado.cpp
+	"Empleado.h"
+
+1536783127 source:c:\users\lenovo\documents\proyects\estruct\persona\src\estudiante.cpp
+	"../include/Estudiante.h"
+
+1536782976 source:c:\users\lenovo\documents\proyects\estruct\persona\src\persona.cpp
+	"../include/Persona.h"
+

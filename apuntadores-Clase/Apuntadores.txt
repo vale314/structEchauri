@@ -1,0 +1,105 @@
+con la palabra reservada new creamos y reservmos un espcio de memoria en el heap.
+ la palabra new regresa una direccion de memoria.
+
+Uso:
+	new <tipo>;
+ejemplo
+	new int;
+
+para crear un apuntador utilizamos el tipo de dsto seguido de *  y el nombre el nombre de la variable:
+
+uso:
+	<tipo>* <identificador>;
+ejemplo:
+	int *p;
+	int *q= new int;
+
+Ejemplos de uso:
+
+int *p= new int;
+*P=33;
+
+_________________________________________________________--
+
+	STACK
+//
+
+
+	|______|  0x0033
+	|______|  0x0032
+	|______|  0x0031
+	|__P[X051]__|  0x0030
+
+
+HEAP
+//MEMORIA DINAMICA
+
+	|_33_| 0X501
+	|____| 0X500
+	|____| 0X499
+	|____| 0X498
+
+
+BASURA
+
+p=new int (97);
+//Perdemos el 33 de su lugar al rescribir el puntero.
+
+	HEAP
+
+	|_97_| 0X900
+	|____|	...
+	|____| 0X501
+	|____| 0X500
+
+BORRAR UN EL CONTENIDO DEL PUNTERO
+(Referencia colgante)
+//referenia colgante un apuntador que apunta a un lugar donde no se puede interpretar
+delete p;
+
+
+STACK
+
+	|______|  0x0033
+	|______|  0x0032
+	|______|  0x0031
+	|__P[X051]__|  0x0030
+
+
+HEAP
+
+	|____| 0X501
+	|____| 0X500
+	|____| 0X499
+	|____| 0X498
+
+ELIMINAMOS EL CONTENIDO.
+
+_________________________________________________________________
+
+APUNTADORES
+
+operaciones con apuntadores
+
+& operador de direccion
+* operador de contenido
+
+int X= 33;
+int *p= &X;
+
+
+Tipo |identificador| valor |direcion
+     |             |       |            
+     |             |       |             
+     |             |       |        
+int* |     p       | 0X0005| X0009            
+     |             |       | 0X0008          
+     |             |       | 0X0007      
+     |             |       | 0X0006      
+int  |     X       |  33   | 0X0005           
+     |             |       |          
+
+__________________________________________
+
+
+
